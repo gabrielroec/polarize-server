@@ -6,4 +6,4 @@ buildCommand = "npm run build:server"
 startCommand = "npm run start:server"
 healthcheckPath = "/"
 healthcheckTimeout = 100
-restartPolicyType = "on-failure"
+# restartPolicyType = "on-failure"
