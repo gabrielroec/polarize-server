@@ -106,6 +106,6 @@ httpServer.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
 
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
   res.send("OK");
 });
